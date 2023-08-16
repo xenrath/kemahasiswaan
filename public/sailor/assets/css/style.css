@@ -2043,6 +2043,55 @@ section {
   padding: 40px 0 20px 0;
 }
 
+.survei .slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.survei .surveiSliders {
+  display: none;
+}
+
+.survei .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.survei .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.survei .prev:hover,
+.survei .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.survei .dot {
+  height: 14px;
+  width: 14px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.survei .active {
+  background-color: #717171;
+}
+
 .survei .entry {
   padding: 30px;
   margin-bottom: 30px;
@@ -2076,12 +2125,24 @@ section {
 }
 
 .survei .entry .entry-content {
-  max-height: 360px;
   margin-bottom: 20px;
   overflow: hidden;
 }
 
-/* Survei Form */
+.survei .entry .entry-content ol li {
+  margin-bottom: 6px;
+}
+
+.survei .entry .entry-content table {
+  width: 100%;
+}
+
+.survei .entry .entry-content table tr th,
+td {
+  padding: 8px;
+  border: 1px solid gray;
+  vertical-align: top;
+}
 
 .survei .php-email-form {
   width: 100%;
@@ -2578,6 +2639,7 @@ section {
   color: #fff;
   animation-delay: 0.8s;
   background: #e24d55;
+  border: none;
 }
 
 .survei .btn-next:hover {
@@ -2597,10 +2659,83 @@ section {
   color: #fff;
   animation-delay: 0.8s;
   background: #aaaaaa;
+  border: none;
 }
 
 .survei .btn-prev:hover {
   background: #b7b7b7;
+}
+
+.survei .btn-hasil {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  animation-delay: 0.8s;
+  background: #9aa31c;
+  border: none;
+}
+
+.survei .btn-hasil:hover {
+  background: #72c230;
+}
+
+/*--------------------------------------------------------------
+# Ormawa
+--------------------------------------------------------------*/
+
+
+
+.ormawa table {
+  width: 100%;
+}
+
+.ormawa table tr, th,
+td {
+  padding: 8px;
+  border: 1px solid gray;
+  vertical-align: top;
+}
+
+.ormawa .ormawa-pagination {
+  color: #8795a4;
+  margin-bottom: 40px;
+}
+
+.ormawa .ormawa-pagination ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ormawa .ormawa-pagination li {
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.ormawa .ormawa-pagination li a {
+  color: #556270;
+  padding: 7px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ormawa .ormawa-pagination li.active,
+.ormawa .ormawa-pagination li:hover {
+  background: #d9232d;
+}
+
+.ormawa .ormawa-pagination li.active a,
+.ormawa .ormawa-pagination li:hover a {
+  color: #fff;
 }
 
 /*--------------------------------------------------------------

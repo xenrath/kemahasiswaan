@@ -12,7 +12,7 @@
         </div>
       </div>
     </section>
-    <section id="survei" class="survei">
+    <section id="ormawa" class="ormawa">
       <div class="container">
         <div class="section-title">
           <h2>Ormawa</h2>
@@ -22,7 +22,7 @@
           <table class="table table-bordered table-hover">
             <thead>
               <tr>
-                <th style="width: 12px">No.</th>
+                <th style="width: 12px;">No.</th>
                 <th style="width: 80px">Logo</th>
                 <th>Nama Organisasi</th>
                 <th>Ketua</th>
@@ -77,7 +77,7 @@
               </tr>
             </tbody>
           </table>
-          <div class="survei-pagination">
+          <div class="ormawa-pagination">
             <ul class="justify-content-center">
               <li class="active">
                 <a href="#">1</a>

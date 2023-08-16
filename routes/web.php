@@ -29,6 +29,10 @@ Route::get('survei', function () {
     return view('survei');
 });
 
+Route::get('hasil-survei', function () {
+    return view('hasil-survei');
+});
+
 Route::get('ormawa', function () {
     return view('ormawa');
 });
